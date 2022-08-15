@@ -1,0 +1,14 @@
+{
+  "name": "storybook",
+  "version": "1.0.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^5.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
