@@ -5,5 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "@zjz/components": "^1.0.2"
-  }
+  },
+  "gitHead": "a8e474e145d2536d9b076ca2d3252b9c40fce32e"
 }

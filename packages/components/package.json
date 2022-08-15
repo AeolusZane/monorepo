@@ -2,5 +2,6 @@
   "name": "@zjz/components",
   "version": "1.0.2",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "a8e474e145d2536d9b076ca2d3252b9c40fce32e"
 }
