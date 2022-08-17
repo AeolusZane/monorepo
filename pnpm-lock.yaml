@@ -21,6 +21,7 @@ importers:
       postcss: ^8.4.16
       react: ^18.2.0
       react-dom: ^18.2.0
+      storybook-addon-swc: ^1.1.8
       tailwindcss: ^3.1.8
       typescript: ^4.7.4
     dependencies:
@@ -42,6 +43,7 @@ importers:
       babel-loader: 8.2.5_@babel+core@7.18.10
       lerna: 5.4.2_@swc+core@1.2.233
       postcss: 8.4.16
+      storybook-addon-swc: 1.1.8
       tailwindcss: 3.1.8
       typescript: 4.7.4
 
@@ -12656,6 +12658,23 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
+  /storybook-addon-swc/1.1.8:
+    resolution: {integrity: sha512-z34Y9ugbkmpvCoXuhoXcVDKgkK8mWjnkhvXXo2n+iomE9+GFiY2KRqBsPhtuQDnpJU/aTdL1aNaBiIkLX5bB/w==}
+    peerDependencies:
+      terser-webpack-plugin: ^4.0.0 || ^5.0.0
+      webpack: ^4.0.0 || ^5.0.0
+    peerDependenciesMeta:
+      terser-webpack-plugin:
+        optional: true
+      webpack:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.18.9
+      '@swc/core': 1.2.233
+      deepmerge: 4.2.2
+      swc-loader: 0.1.16_@swc+core@1.2.233
+    dev: true
+
   /stream-browserify/2.0.2:
     resolution: {integrity: sha512-nX6hmklHs/gr2FuxYDltq8fJA1GDlxKQCz8O/IM4atRqBH8OORmBNgfvW5gG10GT/qQ9u0CzIvr2X5Pkt6ntqg==}
     dependencies:
@@ -12872,6 +12891,15 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /swc-loader/0.1.16_@swc+core@1.2.233:
+    resolution: {integrity: sha512-NKIm8aJjK/z/yfzk+v7YGwJMjBKaLaUs9ZKI2zoaIGKAjtkwjO92ZLI0fiTZuwzRqVLQl/29fBdSgFCBzquR0w==}
+    peerDependencies:
+      '@swc/core': ^1.2.147
+      webpack: '>=2'
+    dependencies:
+      '@swc/core': 1.2.233
     dev: true
 
   /symbol.prototype.description/1.0.5:
