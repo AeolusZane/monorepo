@@ -17,6 +17,7 @@ importers:
       '@swc/core': ^1.2.233
       '@types/react': ^18.0.17
       '@types/react-dom': ^18.0.6
+      autoprefixer: ^10.4.8
       babel-loader: ^8.2.5
       lerna: ^5.4.2
       postcss: ^8.4.16
@@ -42,6 +43,7 @@ importers:
       '@swc/core': 1.2.233
       '@types/react': 18.0.17
       '@types/react-dom': 18.0.6
+      autoprefixer: 10.4.8_postcss@8.4.16
       babel-loader: 8.2.5_@babel+core@7.18.10
       lerna: 5.4.2_@swc+core@1.2.233
       postcss: 8.4.16
@@ -5393,6 +5395,22 @@ packages:
     hasBin: true
     dev: true
 
+  /autoprefixer/10.4.8_postcss@8.4.16:
+    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      browserslist: 4.21.3
+      caniuse-lite: 1.0.30001377
+      fraction.js: 4.2.0
+      normalize-range: 0.1.2
+      picocolors: 1.0.0
+      postcss: 8.4.16
+      postcss-value-parser: 4.2.0
+    dev: true
+
   /autoprefixer/9.8.8:
     resolution: {integrity: sha512-eM9d/swFopRt5gdJ7jrpCwgvEMIayITpojhkkSMRsFHYuH5bkSQ4p/9qTEHtmNudUZh22Tehu7I6CxAW0IXTKA==}
     hasBin: true
@@ -7903,6 +7921,10 @@ packages:
   /forwarded/0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
+    dev: true
+
+  /fraction.js/4.2.0:
+    resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
   /fragment-cache/0.2.1:
