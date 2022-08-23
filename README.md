@@ -1,3 +1,5 @@
+私仓+monorepo+组件库解决方案
+
 1. 私仓
    1. verdaccio
    2. lerna pnpm nx
