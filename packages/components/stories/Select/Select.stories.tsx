@@ -18,7 +18,7 @@ const basicList:DataType[] = [
 ];
 
 export default {
-  title: "Component/Select",
+  title: "Components/Select",
   component: Select,
 } as ComponentMeta<typeof Select>;
 
