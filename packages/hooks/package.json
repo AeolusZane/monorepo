@@ -1,10 +1,10 @@
 {
   "name": "@zjz/hooks",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@zjz/components": "^1.1.0"
+    "@zjz/components": "^1.1.1"
   },
   "gitHead": "62063da104494e22675a41d4da4297359e21220c"
 }
