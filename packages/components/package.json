@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "28bc0faa2f978dc3a974b3e48c7f4f6a356e2d78",
+  "gitHead": "62063da104494e22675a41d4da4297359e21220c",
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "1.0.6"
