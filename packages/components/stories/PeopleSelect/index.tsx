@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
-import { DataType, Select } from "../Select/Select";
+import Select, { DataType } from "../Select";
 
 const PeopleSelect = () => {
   const [selected, setSelected] = useState();
@@ -20,7 +20,7 @@ const PeopleSelect = () => {
       <Select
         data={query.data}
         selected={query.data[0]}
-        onChange={(e:any) => setSelected(e)}
+        onChange={(e: any) => setSelected(e)}
       />
     );
   } else {
